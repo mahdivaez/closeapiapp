@@ -4,11 +4,11 @@ import { PlaceholdersAndVanishInput } from "@/components/ui/placeholders-and-van
 
 export function PlaceholdersAndVanishInputDemo() {
   const placeholders = [
-    "What's the first rule of Fight Club?",
-    "Who is Tyler Durden?",
-    "Where is Andrew Laeddis Hiding?",
-    "Write a Javascript method to reverse a string",
-    "How to assemble your own PC?",
+    "What's my current CRM status?",
+    "How many leads were generated today?",
+    "What's the revenue forecast for Q3?",
+    "List all active deals in my pipeline.",
+    "How do I update a contact's information?",
   ];
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -21,7 +21,7 @@ export function PlaceholdersAndVanishInputDemo() {
   return (
     <div className="h-[40rem] flex flex-col justify-center  items-center px-4">
       <h2 className="mb-10 sm:mb-20 text-xl text-center sm:text-5xl dark:text-white text-black">
-        Ask Aceternity UI Anything
+      Please Enter Your API Key
       </h2>
       <PlaceholdersAndVanishInput
         placeholders={placeholders}
